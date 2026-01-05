@@ -6,7 +6,7 @@ app.post("/bfhl", (req, res) => {
   try {
     const data = req.body.data || [];
 
-    // Change details to your own
+    // Change details 
     const user_id = "jayasri_t_07022005";  // full_name_ddmmyyyy
     const email = "jayasri.t2022@vitstudent.ac.in";    // your email
     const roll_number = "22BIT0678";      // your roll number
